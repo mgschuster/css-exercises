@@ -6,8 +6,6 @@ body {
 
 .header {
   height: 72px;
-  background: darkmagenta;
-  color: white;
 }
 
 .footer {
@@ -55,7 +53,6 @@ body {
   align-items: center;
   font-weight: 900;
   font-size: 32px;
-  padding-left: 16px;
 }
 
 .footer {
@@ -80,4 +77,18 @@ ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+}
+
+.header-container {
+  background: darkmagenta;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header-container a {
+  font-size: 20px;
 }
